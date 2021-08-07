@@ -3,7 +3,8 @@
 :root {
     --primary-color: #10B981;
     --off-white: #F3F4F6;
-    --dark-gray: #6B7280
+    --dark-gray: #6B7280;
+    --sec-color: #6C63FF;
 }
 body { 
     font-family: 'Montserrat', sans-serif;
@@ -18,6 +19,7 @@ hr {
 
 .container {
     padding: 0rem 1rem;
+    
 }
 
 .container-center {
@@ -25,23 +27,27 @@ hr {
     margin: auto;
 }
 
+
 /** Links **/
 
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
+    border-width: 20px;
 }
 
 .link-primary {
     background-color: var(--primary-color);
     color: white;
     border-radius: 0.5rem;
+    
 }
 
 .link-secondary {
-    border: 1px solid var(--primary-color);
+    border: 1px solid #047857;
     border-radius: 0.5rem;
-    color: var(--primary-color);
+    color: #047857;
+    margin: 0.6rem;
 }
 
 /** Lists **/
@@ -61,12 +67,19 @@ hr {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-    border-bottom-left-radius: 1.5rem;
+    border-bottom-left-radius: 2rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    
+    
 }
 
 .navigation .nav-brand {
     font-weight: bold;
     font-size: large;
+    padding: 1rem 1rem 0.1rem 1rem;
 }
 
 .navigation .link {
@@ -81,6 +94,11 @@ hr {
     text-align: right;
 }
 
+
+.link:hover{
+    color:blue;
+}
+
 /** Header **/
 
 .hero {
@@ -91,6 +109,7 @@ hr {
     max-width: 350px;
     display: block;
     margin: auto;
+    padding-top: 8rem;
 }
  
 .hero .hero-heading {
@@ -100,22 +119,28 @@ hr {
 }
 
 .hero .hero-heading .heading-inverted {
-    color: var(--primary-color);
+    color: var(--sec-color);
 }
+
+
 
 /** Section **/
 
 .section {
-    padding: 2rem;
+    padding: 3rem;
 }
 
 .section h1 {
     text-align: center;
+    color: var(--sec-color);
 }
+
+
 
 .ow {
     background-color: var(--off-white);
 }
+
 
 /** Footer **/
 
@@ -139,3 +164,7 @@ hr {
 .footer ul {
     padding-inline-start: 0px;
 }
+.footer .link:hover{
+    color:blue;
+}
+
