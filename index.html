@@ -4,125 +4,132 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Component Library</title>
+    <title>Home | manojasarsa</title>
+    <link href="styles.css" rel="stylesheet" />
+
 </head>
 <body>
-    <h1>Manoj's component library</h1>
-    <p>I am attending lecture 3 neog.camp and I want to make component library
-        for all my projects look good and consistent.
-    </p>
-
-    <hr>
-
-    <h2>@TYPOGRAPHY</h2>
-
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest</h2>
-    <p>This is a paragraph. It will show you a normal text</p>
-    <small>This is relatively smaller text</small>
-
-    <hr>
-
-    <h2>@CONTAINER</h2>
-
-    <h3>Fluid container</h3>
-    <div>It will go till end of the page</div>
-
-    <h3>Centered container</h3>
-    <div>It will go till specified width</div>
-
-    <hr>
-
-    <h2>@LINKS</h2>
-
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
-
-    <hr>
-
-    <h2>@LISTS</h2>
-
-    <h3>UNORDERED LISTS</h3>
-
-    <ul>
-        <li>Item one</li>
-        <li>Item two</li>
-        <li>Item three</li>
-    </ul>
-
-    <h3>UNORDERED INLINE LISTS</h3>
-
-    <ul>
-        <li>Inline Item one</li>
-        <li>Inline Item two</li>
-        <li>Inline Item three</li>
-    </ul>
-
-    <h3>REVERSE ORDERED LISTS</h3>
-
-    <ol>
-        <li>milk</li>
-        <li>eggs</li>
-        <li>bread</li>
-    </ol>
-
-    <hr>
-
-    <h2>@NAVIGATION</h2>
-    
-    <nav>
-        <div>
-            <ul>
-                <li>
-                    <a href="/">Home</a>
-                </li>
-                <li>
-                    <a href="/">Projects</a>
-                </li>
-                <li>
-                    <a href="/">About</a>
-                </li>
-            </ul>
-        </div>
+    <nav class="navigation container ">
+        <div class="nav-brand ">I am Developer</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
+            </li>
+            </li class="list-item-inline">
+            <a class="link" href="/projects.html">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/blogs.html">Blogs</a>
+            </li>
+        </ul>
     </nav>
 
-    <hr>
-
-    <h2>@HEADER</h2>
-
-    <header>
-        <img src="images/hero.svg" />
-        <h1>Heading inside header or hero</h1>
+    <header class="hero">
+        <img class="hero-img" src="images/hero1.svg" />
+        <h1 class="hero-heading">Manoj Asarsa <span class="heading-inverted">The Web Developer</span></h1>
     </header>
 
-    <hr>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>TECHNOLOGIES </h1>
+            
+            <table>
+                <tr>
+                    <td>
+                        <table cellspacing="25">
 
-    <h2>@SECTION</h2>
+                            <tr>
+                                <td>HTML-5</td>
 
-    <section>
-        <h3>White section</h3>
-        <p>This will have white bckg</p>
+                            </tr>
+                            <tr>
+                                <td>REACT.JS</td>
+
+                            </tr>
+                            <tr>
+                                <td>JAVASCRIPT</td>
+
+                            </tr>
+                        </table>
+
+                    </td>
+                    <td>
+                        <table cellspacing="25">
+
+                            <tr>
+                                <td>CSS-3</td>
+
+                            </tr>
+                            <tr>
+                                <td>NODE.JS</td>
+
+                            </tr>
+                            <tr>
+                                <td>WEB HOSTING</td>
+
+                            </tr>
+                            
+                        </table>
+
+                    </td>
+                    <td>
+                        <table cellspacing="25">
+
+                            
+                            <tr>
+                                <td>REPL.IT</td>
+
+                            </tr>
+                            <tr>
+                                <td>GITHUB</td>
+
+                            </tr>
+
+                            <tr>
+                                <td>DEV TOOLS</td>
+                            </tr>
+                        </table>
+
+                    </td>
+                </tr>
+            </table>
+        </div>
     </section>
 
-    <section>
-        <h3>Off white section</h3>
-        <p>This will have grey bckg</p>
+    <section class="section">
+        <div class="container container-center">
+            <h1>Projects</h1>
+            <p> I like to showcase my work and thus, you can see my projects hosted online.</p>
+
+            <a class="link link-primary" href="/">See Projects</a>
+
+        </div>
     </section>
 
-    <hr>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Blogs</h1>
+            <p> I also working on some technical and non-technical blogs. I like document my journey of learning.</p>
 
-    <h2>@FOOTER</h2>
+            <a class="link link-primary" href="/"> See Blogs </a>
 
-    <footer>
-        <div>Some small heading in footer</div>
-        <ul>
-            <li>socialone</li>
-            <li>socialtwo</li>
-            <li>socialthree</li>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-header">My social media presence </div>
+        <ul class="social-link list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/manojasarsa">GitHub</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://www.linkedin.com/in/manoj-asarsa">LinkedIn</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://www.instagram.com/_manojasarsa_/">Instagram</a>
+            </li>
         </ul>
     </footer>
-
-
 
 
 </body>
