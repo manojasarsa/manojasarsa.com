@@ -135,6 +135,10 @@ hr {
 .ow {
     background-color: var(--off-white);
 }
+.section .hover:hover{
+    color: black;
+    background-color: var(--sec-color);
+}
 
 
 /** Footer **/
