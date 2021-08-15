@@ -40,8 +40,8 @@ hr {
 
 .link {
     text-decoration: none;
-    padding: 0.5rem 1rem;
-    border-width: 20px;
+    padding: 0.5rem;
+    border-width: 1rem;
 }
 
 .link-primary {
@@ -55,7 +55,11 @@ hr {
     border: 1px solid #047857;
     border-radius: 0.5rem;
     color: #047857;
-    margin: 0.6rem;
+    /* margin: 0.6rem; */
+}
+
+.section .plink{
+    display: inline;
 }
 
 /** Lists **/
@@ -76,9 +80,9 @@ hr {
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 2rem;
-    position: fixed;
+    /* position: fixed;
     top: 0;
-    width: 100%;
+    width: 100%; */
 }
 
 .navigation .nav-brand {
@@ -132,7 +136,7 @@ hr {
 /** Section **/
 
 .section {
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .section h1 {
@@ -157,7 +161,7 @@ hr {
     padding: 1rem 1rem 0.4rem 1rem;
     text-align: center;
     border-top-right-radius: 1.5rem;
-    width: 100% ;
+    /* width: 100% ; */
 }
 
 .footer .footer-header{
