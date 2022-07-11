@@ -70,6 +70,10 @@ body {
     padding: 2rem;
 }
 
+.features-list {
+    list-style: square;
+}
+
 /** Navigation **/
 
 .navigation {
@@ -169,7 +173,9 @@ hr{
 
 .home-span{
     color: var(--sec-color);
+    padding: 0 1rem;
 }
+
 .project-span{
     color: var(--sec-color);
     text-align: center;
@@ -207,7 +213,3 @@ hr{
 .footer .footer-para{
     padding: 1rem;
 }
-
-
-
-
