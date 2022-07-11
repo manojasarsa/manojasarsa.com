@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
 
 :root {
     --primary-color: #f39696;
+    --sec-color: #f38c8c;
     --off-white: #F3F4F6;
     --dark-gray: #656a74;
-    --sec-color: #f38c8c;
 }
 
 body { 
@@ -70,19 +71,25 @@ body {
     padding: 2rem;
 }
 
+.features-list {
+    list-style: square;
+}
+
 /** Navigation **/
 
 .navigation {
     background-color: var(--primary-color);
     color: white;
-    padding: 1rem;
+    padding: 0.05rem 1rem;
     border-bottom-left-radius: 1.5rem;
     border-bottom-right-radius: 1.5rem;
 }
 
 .navigation .nav-brand {
     font-weight: bold;
-    
+    font-family: 'The Nautigal', cursive;
+    font-size: 2.5rem;
+    margin-top: 1rem;
 }
 
 .navigation .link {
@@ -97,7 +104,7 @@ body {
     text-align: right;
 }
 
-.nav-brand a{
+.nav-brand a {
     text-decoration: none;
     color: inherit;
 }
@@ -169,7 +176,9 @@ hr{
 
 .home-span{
     color: var(--sec-color);
+    padding: 0 0.5rem;
 }
+
 .project-span{
     color: var(--sec-color);
     text-align: center;
@@ -207,7 +216,3 @@ hr{
 .footer .footer-para{
     padding: 1rem;
 }
-
-
-
-
